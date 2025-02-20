@@ -13,6 +13,7 @@
     />
 
     <title>Frontend Mentor | Insure landing page</title>
+    <link rel="stylesheet" href="./index.css" />
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -28,28 +29,21 @@
   <body>
     <header>
       <a href="index.html">
-        <img src="./images/logo.svg" alt="insure logo" />
+        <img class="logo" src="./images/logo.svg" alt="insure logo" />
       </a>
-      <nav>
+      <nav class="desktop-nav">
         <a href="#"> How we work</a>
         <a href="https://blog.eldohub.co.ke" target="_blank">Blog</a>
         <a href="#">Account</a>
         <a href="#" class="action-link">View Plans</a>
       </nav>
+      <button id="mobile-nav-btn">
+        <img src="./images/icon-hamburger.svg" alt="mobile menu icon" />
+      </button>
     </header>
     <main>
       <!-- hero section -->
       <section class="hero" id="hero">
-        <div class="text-side">
-          <div class="line"></div>
-          <h1>Humanizing your insurance.</h1>
-          <p>
-            Get your life insurance coverage easier and faster. We blend our
-            expertise and technology to help you find the plan that’s right for
-            you. Ensure you and your loved ones are protected.
-          </p>
-          <a href="#" class="action-link"> View plans</a>
-        </div>
         <div class="image-side">
           <img
             src="./images/image-intro-desktop.jpg"
@@ -61,6 +55,16 @@
             alt="a client family stralling in a street"
             id="hero-image-mobile"
           />
+        </div>
+        <div class="text-side">
+          <div class="line"></div>
+          <h1>Humanizing your insurance.</h1>
+          <p>
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right for
+            you. Ensure you and your loved ones are protected.
+          </p>
+          <a href="#" class="action-link"> View plans</a>
         </div>
       </section>
       <!-- why choose us section -->
