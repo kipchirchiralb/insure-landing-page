@@ -93,6 +93,7 @@ header .logo {
   border-color: white;
   text-decoration: none;
 }
+/* Pseudo element in css  */
 .hero .text-side::before {
   content: "";
   position: absolute;
