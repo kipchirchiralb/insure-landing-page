@@ -170,3 +170,131 @@ header .logo {
     z-index: 0;
   }
 }
+
+/* why choose us section */
+.why-us {
+  text-align: center;
+  color: hsl(273, 4%, 51%);
+  padding: 20px;
+}
+.why-us .line {
+  border-color: hsl(256, 26%, 20%);
+  margin: 50px auto;
+}
+.why-us ul {
+  list-style-type: none;
+}
+.why-us h2,
+.why-us h3 {
+  color: hsl(256, 26%, 20%);
+}
+.why-us h3 {
+  margin: 30px 0px;
+}
+.why-us h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.why-us ul p {
+  margin-bottom: 15px;
+}
+.why-us ul img {
+  width: 55px;
+}
+@media (min-width: 768px) {
+  .why-us {
+    text-align: left;
+    padding: 20px 70px;
+  }
+  .why-us ul {
+    display: flex;
+    gap: 18px;
+  }
+  .why-us .line {
+    margin-left: 0px;
+  }
+}
+
+/* call to action section */
+.cta {
+  background-color: hsl(256, 26%, 20%);
+  color: hsl(0, 0%, 98%);
+  margin: 20px;
+  padding: 60px 10px;
+  text-align: center;
+  background-image: url("./images/bg-pattern-how-we-work-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.cta h2 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.cta .action-link {
+  color: inherit;
+  border-color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    padding: 40px;
+    margin: 20px 70px;
+  }
+  .cta h2 {
+    width: 50%;
+  }
+}
+/* footer */
+
+footer {
+  background-color: hsl(0, 0%, 98%);
+  background-image: url(./images/bg-pattern-footer-mobile.svg);
+  background-repeat: no-repeat;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+footer a {
+  color: hsl(270, 9%, 17%);
+  display: block;
+  text-decoration: none;
+  margin: 14px 0px;
+}
+footer .top-footer {
+  border-bottom: 1px solid hsl(273, 4%, 51%);
+}
+footer .top-footer nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+footer p {
+  color: hsl(273, 4%, 51%);
+  margin: 20px 0px;
+}
+@media (min-width: 768px) {
+  footer {
+    padding: 20px 70px;
+  }
+  footer .top-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 0px;
+  }
+  footer .bottom-footer {
+    display: flex;
+  }
+  footer .bottom-footer nav {
+    flex: 1; /* 1 1 0 */
+    text-align: start;
+  }
+}
+/* animations -- transition property */
